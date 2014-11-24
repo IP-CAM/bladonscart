@@ -78,8 +78,7 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #e2e2e2;
+	background-color: #ffffff;
 	padding: 4px 0px 3px 0;
 	margin: 0 0 20px 0;
 	min-height: 40px;
@@ -700,4 +699,31 @@ h2.price {
 }
 .flex-direction-nav a:before {
 	line-height: 40px;
+}
+
+
+/* CUSTOM */
+.btn.btn-cart {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+	box-shadow:none;
+	margin-top:3px;
+}
+
+#cart > .btn
+{
+
+color:#129877;
+
+font-size:18px;	
+	
+}
+
+/* top */
+#top {
+	background-color: #ffffff;
+	padding: 4px 0px 3px 0;
+	margin: 0 0 0px 0;
+	min-height: 40px;
+	border-bottom:none;
 }
