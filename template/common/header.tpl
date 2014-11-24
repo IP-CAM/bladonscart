@@ -82,7 +82,7 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
+      <div class="col-sm-4 pull-right"><?php echo $search; ?>
       </div>
      
     </div>

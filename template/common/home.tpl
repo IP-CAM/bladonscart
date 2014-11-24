@@ -1,4 +1,5 @@
 <?php echo $header; ?>
+<?php echo $slider; ?> 
 <div class="container">
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
@@ -10,5 +11,5 @@
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?><?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
-</div>
+</div> 
 <?php echo $footer; ?>

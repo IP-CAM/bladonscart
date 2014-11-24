@@ -703,6 +703,16 @@ h2.price {
 
 
 /* CUSTOM */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+body {
+
+	color: #666;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+/* Cart */
 .btn.btn-cart {
     background: none repeat scroll 0 0 #fff;
     border: medium none;
@@ -720,6 +730,27 @@ font-size:18px;
 }
 
 /* top */
+a
+{
+
+color:#444;	
+	
+}
+
+#search .btn-lg {
+    background: none repeat scroll 0 0 #18926f;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+    text-shadow:none;
+}
+
+#logo {
+    margin: 0;
+    position: relative;
+    top: -30px;
+}
+
 #top {
 	background-color: #ffffff;
 	padding: 4px 0px 3px 0;
@@ -727,3 +758,44 @@ font-size:18px;
 	min-height: 40px;
 	border-bottom:none;
 }
+
+/* menu */
+#menu {
+	background-color: #fff;
+	border-color: #fff;
+	min-height: 40px;
+	background-image:none;
+	border-bottom:1px solid #ccc;
+}
+
+#menu .nav > li > a {
+	color: #444;
+	text-shadow:none;
+	padding: 5px 30px;
+	min-height: 15px;
+	background-color: transparent;
+	border-right:2px solid #129877;
+}
+
+.breadcrumb {
+	margin: 0 0 20px 0;
+	padding: 8px 0;
+	border:none;
+	border-bottom:none;
+	background:#fff;
+	border-radius:0;
+}
+
+.breadcrumb > li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -3px;
+	right: -5px;
+	width: 26px;
+	height: 26px;
+	border-right: #129877 solid 3px;
+	border-bottom: #129877 solid 3px;
+}
+
+
