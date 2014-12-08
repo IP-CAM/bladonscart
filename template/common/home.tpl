@@ -1,5 +1,7 @@
 <?php echo $header; ?>
+<div id="content" class="<?php echo $class; ?>">
 <?php echo $slider; ?> 
+</div>
 <div class="container">
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>

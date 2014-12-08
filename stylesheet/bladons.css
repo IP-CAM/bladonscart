@@ -128,7 +128,7 @@ div.required .control-label:before {
 	margin-bottom: 10px;
 }
 #search .input-lg {
-	height: 40px;
+	height: 42px;
 	line-height: 20px;
 	padding: 0 10px;
 }
@@ -712,6 +712,11 @@ body {
 	line-height: 20px;
 }
 
+/* content */
+#content {
+	min-height:0;
+}
+
 /* Cart */
 .btn.btn-cart {
     background: none repeat scroll 0 0 #fff;
@@ -743,7 +748,9 @@ color:#444;
     font-size: 15px;
     line-height: 18px;
     text-shadow:none;
+    height:42px;
 }
+
 
 #logo {
     margin: 0;
@@ -765,13 +772,14 @@ color:#444;
 	border-color: #fff;
 	min-height: 40px;
 	background-image:none;
-	border-bottom:1px solid #ccc;
+	border-bottom:0px solid #ccc;
+    z-index:1;
 }
 
 #menu .nav > li > a {
 	color: #444;
 	text-shadow:none;
-	padding: 5px 30px;
+	padding: 5px 62px;
 	min-height: 15px;
 	background-color: transparent;
 	border-right:2px solid #129877;
@@ -796,6 +804,82 @@ color:#444;
 	height: 26px;
 	border-right: #129877 solid 3px;
 	border-bottom: #129877 solid 3px;
+}
+
+/* BUTTONS */
+.btn {
+	padding: 10px 12px;
+	font-size: 16px;
+	border: 2px solid #18926F;
+	border-radius: 0;
+	box-shadow:none;
+}
+
+.btn-primary {
+	color: #666;
+	text-shadow:none;
+	background-color: #ffffff;
+	background-image:none;
+	border-color:  #18926F;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+	background-color: #18926F;
+	background-position: 0 -15px;
+	color:#fff;
+	border-color:#18926F;
+}
+
+.btn-default {
+	color: #777;
+	text-shadow:none;
+	background-color: #ffffff;
+	background-image:none;
+}
+
+a
+{
+
+color:#18926F;	
+	
+}
+
+
+/* Slider */
+.flexslider {
+    background: none repeat scroll 0 0 #fff;
+    border:none !important;
+    border-radius: 0px !important;
+    box-shadow:none !important;
+    margin:0 !important;
+    position: relative;
+}
+
+#slider {
+    position: relative;
+    top: -40px;
+    z-index: 0;
+}
+
+/* Categorys */
+.name {
+    background: none repeat scroll 0 0 #18926f;
+    padding: 20px;
+    position: relative;
+    top: -80px;
+}
+
+.name a
+{
+ 
+    color:#fff;
+    
+    font-size:18px;
+    
+}
+
+.image img {
+    width: 100% !important;
 }
 
 
