@@ -72,8 +72,7 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #18926F;
 	background-repeat: repeat-x;
 }
 /* top */
@@ -779,10 +778,19 @@ color:#444;
 #menu .nav > li > a {
 	color: #444;
 	text-shadow:none;
-	padding: 5px 62px;
+	padding: 5px 48px;
 	min-height: 15px;
 	background-color: transparent;
 	border-right:2px solid #129877;
+}
+
+#menu #category
+{
+ 
+    text-shadow:none;
+    
+    color:#18926F;
+    
 }
 
 .breadcrumb {
@@ -804,6 +812,23 @@ color:#444;
 	height: 26px;
 	border-right: #129877 solid 3px;
 	border-bottom: #129877 solid 3px;
+}
+
+#menu .dropdown-inner a:hover
+{
+ 
+    background:#18926F;
+    
+}
+
+#menu .dropdown-inner a {
+    clear: both;
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    min-width: 200px;
+    padding: 4px 15px;
 }
 
 /* BUTTONS */
@@ -1040,5 +1065,96 @@ figure.category-window:hover h2 i {
     color:#000000;
 }
 
+
+/* Products */
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail:hover, a.thumbnail:active
+{
+ 
+    border-color:#18926F;
+    
+}
+
+/* Category Pages */
+.list-group a
+{
+    
+    padding:20px;
+    
+}
+
+.list-group-item:first-child, .list-group-item:last-child
+{
+ 
+    border-radius:0px;
+    
+}
+
+
+/* Footer */
+footer
+{
+ 
+    background:#fff;
+    
+    border-top:10px #18926F solid;
+    
+    color:#999;
+    
+}
+
+footer a
+{
+    
+color:#999999;
+    
+}
+
+footer a:hover
+{
+
+color:#18926F;
+    
+}
+
+footer hr
+{
+ 
+    border-bottom:1px solid #ccc; 
+    
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    
+#slider {
+ 
+    top: -30px;
+  
+}
+    
+#menu .btn-navbar {
+    background-color: #18926F;
+    background-image:none;
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    font-stretch: expanded;
+    padding: 2px 18px;
+}
+    
+    #menu .btn-navbar:hover
+    {
+     
+        background
+        
+        
+    }
+    
+    #logo {
+    top: -10px;
+}
+    
+}
 
 
