@@ -1,6 +1,8 @@
 <?php echo $header; ?>
-<div id="content" class="<?php echo $class; ?>">
+<div class="row">
+<div id="content" class="col-sm-12">
 <?php echo $slider; ?> 
+    </div>
 </div>
 <div class="container">
   <div class="row"><?php echo $column_left; ?>
@@ -11,7 +13,15 @@
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
-    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?><?php echo $content_bottom; ?></div>
-    <?php echo $column_right; ?></div>
+    <div id="content" class="<?php echo $class; ?>">
+        <?php echo $content_top; ?>
+      <hr />    
+        <?php echo $content_bottom; ?>        
+            <?php echo $newsletter; ?>
+     
+    <?php echo $column_right; ?>
+
+    </div>
+    </div>
 </div> 
 <?php echo $footer; ?>

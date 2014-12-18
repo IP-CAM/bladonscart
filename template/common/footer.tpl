@@ -14,10 +14,15 @@
       </div>
       <?php } ?>
       <div class="col-sm-4">
-        <h5><?php echo $text_service; ?></h5>
+        <h5>Quick Links</h5>
         <ul class="list-unstyled">
-       
-          <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
+        <?php foreach ($categorys as $category) { ?>   
+          <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+             <?php } ?>
+            <li><a href="#">For The Home</a></li>
+             <li><a href="#">Men</a></li>
+             <li><a href="#">Women</a></li>
+             <li><a href="#">Baby & Child</a></li>
         </ul>
       </div>
       <div class="col-sm-4">
@@ -31,15 +36,12 @@
       </div>      
     </div>
     <hr>
+      <div class="col-sm-4">
     <p>20<?php echo date(y); ?> &copy; Barry Bladons Ltd</p> 
+      </div>
+      <div class="col-sm-4 pull-right">
+          <small class="pull-right">Web Design By <a href="http://www.pushmyprofile.co.uk" rel="nofollow"></a>Push My Profile</a></small>      
+      </div>
   </div>
 </footer>
-
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//--> 
-
-<!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
-
 </body></html>
