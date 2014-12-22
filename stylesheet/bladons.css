@@ -680,7 +680,7 @@ h2.price {
 
 
 
-/*.flexslider .slides img {
+.flexslider .slides img {
 	width: inherit;
 }
 .flexslider.carousel .slides img {
@@ -754,6 +754,13 @@ color:#129877;
 
 font-size:18px;	
 	
+}
+
+.flex-viewport
+{
+ 
+    max-height:500px;
+    
 }
 
 /* top */
@@ -911,6 +918,7 @@ color:#18926F;
 
 /* Slider */
 
+
 .flexslider {
     background: none repeat scroll 0 0 #fff;
     border:none !important;
@@ -922,7 +930,7 @@ color:#18926F;
 
 #slider {
     position: relative;
-    top: -75px;
+    top: -50px;
     z-index: 0;
 }
 

@@ -1,9 +1,10 @@
 <?php echo $header; ?>
-<div class="row">
-<div id="content" class="col-sm-12">
+
+<div id="content" class="">
 <?php echo $slider; ?> 
-    </div>
+
 </div>
+
 <div class="container">
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
